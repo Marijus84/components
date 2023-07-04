@@ -1,0 +1,5 @@
+Task. 
+1. Add button with text 'Like' to every card. 
+2. Add Footer component to App.jsx file. Footer content should be h4 
+with random text. Add Footer.css file and apply random selector. 
+3* Extra. Try creating FooterClass component. And use it. 
