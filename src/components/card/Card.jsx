@@ -1,4 +1,5 @@
 import "./Card.css";
+import styles from "./Card.module.css";
 import Star from "../../assets/star.svg";
 
 const Card = ({ title, description, rating }) => {
@@ -17,7 +18,7 @@ const Card = ({ title, description, rating }) => {
         <p>{description}</p>
         {rating > 8 ? <h3>Rating: {rating}</h3> : <h6>Rating: {rating}</h6>}
         {rating > 8 && (
-          <img className="star" src={Star} alt="high rating star" />
+          <img className={styles.star} src={Star} alt="high rating star" />
         )}
       </div>
     );
